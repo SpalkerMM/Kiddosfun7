@@ -16,6 +16,8 @@ public class DombaActivity2 extends AppCompatActivity {
         setContentView(R.layout.activity_domba2);
     }
 
+
+
     public void back (View view){
         Intent intent = new Intent(DombaActivity2.this,KucingActivity2.class);
         startActivity(intent);
