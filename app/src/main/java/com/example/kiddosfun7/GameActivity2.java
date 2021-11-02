@@ -8,6 +8,7 @@ import android.view.View;
 
 public class GameActivity2 extends AppCompatActivity {
 
+
     public void homeutama(View view) {
         Intent intent = new Intent(GameActivity2.this,UtamaActivity2.class);
         startActivity(intent);

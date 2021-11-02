@@ -8,7 +8,6 @@ import android.os.Bundle;
 import android.view.View;
 
 public class AyamActivity2 extends AppCompatActivity {
-
     MediaPlayer player;
 
     @Override
