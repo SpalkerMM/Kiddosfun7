@@ -18,6 +18,7 @@ public class TelingaActivity2 extends AppCompatActivity {
         startActivity(intent);
     }
 
+
     public void stage (View view){
         Intent intent = new Intent(TelingaActivity2.this,BagiantubuhActivity2.class);
         startActivity(intent);
