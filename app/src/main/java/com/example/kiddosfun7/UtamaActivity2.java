@@ -18,6 +18,8 @@ public class UtamaActivity2 extends AppCompatActivity {
         startActivity(intent);
     }
 
+
+
     public void angka (View view){
         Intent intent = new Intent(UtamaActivity2.this , PilihanangkaActivity2.class);
         startActivity(intent);
