@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kiddosfun7">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Kiddosfun7">
+        <activity
+            android:name=".Number9Activity2"
+            android:exported="false" />
+        <activity
+            android:name=".Number8Activity2"
+            android:exported="false" />
+        <activity
+            android:name=".Number7Activity2"
+            android:exported="false" />
+        <activity
+            android:name=".Number6Activity2"
+            android:exported="false" />
+        <activity
+            android:name=".Number5Activity2"
+            android:exported="false" />
+        <activity
+            android:name=".Number4Activity2"
+            android:exported="false" />
+        <activity
+            android:name=".Number3Activity2"
+            android:exported="false" />
+        <activity
+            android:name=".Number0Activity2"
+            android:exported="false" />
+        <activity
+            android:name=".Number1Activity2"
+            android:exported="false" />
+        <activity
+            android:name=".PilihanangkaActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".AyamActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".DombaActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".GajahActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".KucingActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".SingaActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".PilihanhewanActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".KakiActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".TanganActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".LidahActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".GigiActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".MulutActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".HidungActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".TelingaActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".MataActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".BagiantubuhActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".PilihanActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".UtamaActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".GenderActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".NamaActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

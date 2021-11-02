@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundmewarnai"
+    tools:context="MewarnaiActivity2">
+
+
+    <ImageButton
+        android:id="@+id/bt_home"
+        android:layout_width="66dp"
+        android:layout_height="58dp"
+        android:backgroundTint="#00FFFFFF"
+        android:onClick="home"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.046"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.029"
+        app:srcCompat="@drawable/bt_home"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/bt_kura"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="kura"
+        android:background="@drawable/kurakosong"
+        tools:layout_editor_absoluteX="134dp"
+        tools:layout_editor_absoluteY="144dp" />
+
+
+    <ImageButton
+        android:id="@+id/bt_buaya"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="buaya"
+        android:background="@drawable/buayakosong"
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="292dp" />
+
+
+    <ImageButton
+        android:id="@+id/bt_dino"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="dino"
+        android:background="@drawable/dinokosong"
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="436dp" />
+
+    <ImageButton
+        android:id="@+id/bt_mobil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="mobil"
+        android:background="@drawable/mobilkosong"
+        tools:layout_editor_absoluteX="134dp"
+        tools:layout_editor_absoluteY="579dp" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
