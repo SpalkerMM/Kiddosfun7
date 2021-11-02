@@ -10,6 +10,11 @@ import android.view.View;
 public class KucingActivity2 extends AppCompatActivity {
     MediaPlayer player;
 
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_kucing2);
+    }
     public void back (View view){
         Intent intent = new Intent(KucingActivity2.this,AyamActivity2.class);
         startActivity(intent);
@@ -23,17 +28,9 @@ public class KucingActivity2 extends AppCompatActivity {
         startActivity(intent);
     }
     public void suara_kucing (View view) {
-
         if (player == null) {
             player = MediaPlayer.create(this, R. raw.voice_kucing);
         }
         player.start();
     }
-
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_kucing2);
-    }
-
 }
