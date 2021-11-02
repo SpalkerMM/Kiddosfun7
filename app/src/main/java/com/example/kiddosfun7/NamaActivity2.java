@@ -13,6 +13,7 @@ public class NamaActivity2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_nama2);
     }
+
     public  void lanjut (View view){
         Intent intent = new Intent(NamaActivity2.this,GenderActivity2.class);
         startActivity(intent);
