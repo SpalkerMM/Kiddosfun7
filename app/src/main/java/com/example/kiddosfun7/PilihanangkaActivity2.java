@@ -13,6 +13,8 @@ public class PilihanangkaActivity2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pilihanangka2);
     }
+
+
     public void home (View view){
         Intent intent = new Intent(PilihanangkaActivity2.this,UtamaActivity2.class);
         startActivity(intent);
