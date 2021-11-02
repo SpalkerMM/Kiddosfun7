@@ -15,6 +15,7 @@ public class BagiantubuhActivity2 extends AppCompatActivity {
         setContentView(R.layout.activity_bagiantubuh2);
     }
 
+
     public void home(View view){
         Intent intent = new Intent (BagiantubuhActivity2.this, UtamaActivity2.class);
         startActivity((intent));
