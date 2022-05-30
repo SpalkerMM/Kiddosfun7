@@ -1,5 +1,4 @@
-## Summary
-Kiddosfun7
+#Kiddosfun7
 
 
 <!-- This is the markdown template for the final project of the Building AI course, 
