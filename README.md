@@ -8,9 +8,9 @@ Final project for the Building AI course
 
 ## Summary
 
-*Atificial Intelligence (AI) aims to develop machines that can accomplish what a human can in terms of reasoning.
-*The four types of artificial intelligence are reactive machines, limited memory, theory of mind, and self-awareness.
-*Artificial intelligence now affects productivity, employment, and competitive behavior in significant ways.
+Atificial Intelligence (AI) aims to develop machines that can accomplish what a human can in terms of reasoning.
+The four types of artificial intelligence are reactive machines, limited memory, theory of mind, and self-awareness.
+Artificial intelligence now affects productivity, employment, and competitive behavior in significant ways.
 
 
 ## Background
